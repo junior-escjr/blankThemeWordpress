@@ -1,19 +1,37 @@
 <?php get_header(); ?>
 
-	<main role="main">
+	<!-- main -->
+	<main role="main" class="content">
+
 		<!-- section -->
-		<section>
+		<section class="container">
 
-			<h1><?php _e( 'Categories for ', 'html5blank' ); single_cat_title(); ?></h1>
+			<!-- row -->
+			<div class="row">
 
-			<?php get_template_part('loop'); ?>
+				<!-- col-lg-8 -->
+				<div class="col-lg-8">
+					<h1><?php single_cat_title(); ?></h1>
 
-			<?php get_template_part('pagination'); ?>
+					<?php get_template_part('loop'); ?>
+
+					<?php get_template_part('pagination'); ?>
+				</div>
+				<!-- /col-lg-8 -->
+
+				<!-- col-lg-4 -->
+				<div class="col-lg-4">
+					<?php get_sidebar(); ?>
+				</div>
+				<!-- /col-lg-4 -->
+
+			</div>
+			<!-- /row -->
 
 		</section>
 		<!-- /section -->
-	</main>
 
-<?php get_sidebar(); ?>
+	</main>
+	<!-- /main -->
 
 <?php get_footer(); ?>

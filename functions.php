@@ -9,7 +9,7 @@
 \*------------------------------------*/
 
 // MODO DE MANUTENÇÃO
-include(TEMPLATEPATH . '/functions/active-maintenace-mode.php');
+//include(TEMPLATEPATH . '/functions/active-maintenace-mode.php');
 
 // ADICIONA TAGS NAS PÁGINAS
 include(TEMPLATEPATH . '/functions/add-tag-pages.php');

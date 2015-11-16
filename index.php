@@ -12,26 +12,20 @@
 		<!-- /section -->
 
 		<!-- section -->
-		<section id="conteudo">
+		<section id="conteudo" class="container">
 
-			<!-- container -->
-			<div class="container">
-
-				<!-- row -->
-				<div class="row">
-					<div class="col-lg-8">
-						<div class="conteudo-info">
-							corpo
-						</div>
-					</div>
-					<div class="col-lg-4">
-						<?php get_sidebar(); ?>
+			<!-- row -->
+			<div class="row">
+				<div class="col-lg-8">
+					<div class="conteudo-info">
+						corpo
 					</div>
 				</div>
-				<!-- /row -->
-
+				<div class="col-lg-4">
+					<?php get_sidebar(); ?>
+				</div>
 			</div>
-			<!-- /container -->
+			<!-- /row -->
 
 		</section>
 		<!-- /section -->

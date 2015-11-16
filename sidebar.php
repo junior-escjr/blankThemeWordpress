@@ -1,5 +1,5 @@
 <!-- sidebar -->
 <aside class="sidebar" role="complementary">
-	sidebar
+	<?php get_search_form(); ?>
 </aside>
 <!-- /sidebar -->
