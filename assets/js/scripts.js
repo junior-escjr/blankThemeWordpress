@@ -5,9 +5,14 @@ var funcoes = {
 
 	slideshow: function(){
 		jQuery('.slide-home').owlCarousel({
-			items:1,
-		    loop:true,
-			autoplay:true
+			items: 1,
+			autoplay: true,
+			loop: true,
+			onInitialize: function (event) {
+			    if ($('.item > img').length === 1) {
+			      this.settings.loop = false;
+			    }
+			}
 		})
 	}
 }

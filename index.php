@@ -6,7 +6,7 @@
 		<section id="slideshow">
 			<div class="slide-home">
 				<div class="item">Slideshow</div>
-				<div class="item">Slideshow</div>
+				<!-- <div class="item">Slideshow</div> -->
 			</div>
 		</section>
 		<!-- /section -->
