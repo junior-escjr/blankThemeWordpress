@@ -1,9 +1,14 @@
+@import 'base/reset';
+
+@import 'base/grid';
+@import 'base/fonts';
+
+@import 'helpers/variaveis';
+@import 'helpers/mixins';
+@import 'helpers/functions';
+
 .header-logo {
 	float: left;
-}
-
-nav.menu-principal-container {
-	clear: both;
 }
 
 .slide-home .item {

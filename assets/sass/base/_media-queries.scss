@@ -1,0 +1,813 @@
+/* ----------------------------------------------
+    MEDIA QUERIES
+---------------------------------------------- */
+@media (max-width: 1199px){
+
+	@media (min-width: 240px){
+
+		/****************************
+			HEADER 
+		****************************/		
+		/* header menu desktop */
+		.menu-header {
+			display: none;
+		}
+
+		/* header menu mobile */
+		.menu-mobile {
+			display: block;
+		}		
+
+		/* header logo */
+		.logo-tc-header {
+			width: 61px;
+			float: left;
+			margin-bottom: 10px;
+		}
+
+		.banner-txt-promo {
+			width: 178px;
+			margin: 0 auto;
+			position: relative;
+		}
+
+		.wave-detail {
+			height: 14px;
+			bottom: -13px;
+			background: url('../images/ondulacao2-mobile.png');
+		}
+
+		.hide-balloon {
+			display: none;
+		}
+
+		.menu-container {
+			width: 100%;
+			top: 100%;
+			right: 0;
+		}
+
+		ul.menu-principal {
+			margin-top: 0;
+		}
+
+		/****************************
+			HOME 
+		****************************/	
+		.slogan-promo {
+			font-size: font_size(25);
+			text-align: center;
+			line-height: 28px;
+			background: none;
+			padding: 0 5px 0 10px;
+
+			big {
+				font-size: font_size(30, 25);
+			}
+		}
+
+		h2.txt-promo {
+			font-size: font_size(20);
+			line-height: 28px;
+			padding: 0 3.31%;
+
+			big {
+				font-size: font_size(27, 20);
+			}
+		}
+
+		.bird {
+			display: none;
+		}
+
+		.logo-universal-resort {
+			position: relative;
+			left: 0;
+			bottom: 0;
+			margin: 0 auto;
+		}
+
+		.btn-enviar {
+			font-size: font_size(27);
+			padding: 7px 30px;
+		}
+
+		.barra-placa {
+			background: url('../images/plate-bars-mobile.png') center top;
+			background-size: 100% auto;
+		}
+
+		.placa-branca {
+			padding: 29px 0 20px 0;
+		}
+
+		/****************************
+			REGULAMENTO
+		****************************/		
+		.regulamento-box {
+			padding: 0 5%;
+
+			h2 {
+				font-size: font_size(21);
+				margin: 10% 0;
+			}
+		}
+
+		.scroll-regulamento {
+			p {
+				font-size: font_size(13);
+			}
+		}
+
+		/****************************
+			PRÊMIO
+		****************************/		
+		.premio-box {
+			margin-bottom: 8px;
+
+			h2 {
+				font-size: font_size(21);
+				line-height: 22px;
+				padding: 0 1%;
+			}
+
+			p {
+				font-size: font_size(18);
+
+				a {
+					font-size: 17px;
+				}
+			}
+		}
+
+		.logo-universal-premio {
+			display: none;
+		}
+
+		.premio-lista {
+			margin-left: 10px;
+
+			li {
+				width: 100%;
+				font-size: font_size(18);
+			}
+		}
+
+		.premios-thumb {
+			display: none;
+		}		
+
+		.premio-btn {
+			font-size: font_size(18);
+			margin: 0 20px;
+		}
+
+		/****************************
+			SINOPSE
+		****************************/	
+		.sinopse-box {
+			h2 {
+				font-size: font_size(47);
+			}
+
+			p {
+				font-size: font_size(20);
+			}	
+		}	
+
+		/****************************
+			FOTOS ENVIADAS
+		****************************/		
+		ul.list-photos {
+
+			li {
+				width: 50%;
+			}
+		}
+
+		/****************************
+			FOTOS
+		****************************/
+		.fotos-box {		
+			padding: 20px 0;
+			margin-bottom: 20px;
+
+			.owl-dots {
+				padding: 7px 0 4px 0;
+			}	
+
+			.owl-theme {
+				.owl-controls {
+					
+					.owl-nav {
+
+						.owl-prev, .owl-next {
+							top: 38%;					
+						}							
+					}			
+				}		
+			}	
+		}
+
+		/****************************
+			VÍDEOS
+		****************************/	
+		.videos-box {
+			padding: 20px 0;
+			margin-bottom: 20px;
+
+			.owl-theme {
+				.owl-controls {
+					.owl-nav {
+						.owl-prev, .owl-next {
+							top: 45%;					
+						}							
+					}			
+				}		
+			}
+		}
+
+		.thumbs-box {
+			padding: 0 5px;
+
+			.videos-thumbs {
+				width: 100%;
+
+				li:first-child {	
+					padding-left: 0;									
+				}				
+			}
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/
+		.fotos-container {
+			padding: 0 10px;
+		}
+
+		.ft-enviar-bg {
+			
+		}
+
+		.fotos-passos {
+			overflow: hidden;
+
+			li {
+				display: block;
+				width: 33.33%;
+				text-align: center;
+				margin-bottom: 15px;
+				float: left;
+			}
+
+			li i {
+				font-size: font_size(18);
+				width: 30px;
+				height: 30px;
+				padding-top: 3px;
+			}
+
+			li p {
+				display: block;
+				font-size: font_size(18);
+				margin: 0 5px;
+				position: relative;
+
+				span {
+					position: absolute;
+					right: -27px;
+					top: -24px;
+				}
+			}
+		}
+
+		.foto-enviar-msg {
+			display: none;
+		}
+		
+		.ft-enviar-opcao-2 {
+			span.txt-file-select {
+				display: none;
+			}
+		}
+		
+
+		/****************************
+			SELECIONAR FOTOS - 2	
+		****************************/
+		.regulamento-check {
+			font-size: font_size(18);
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 3	
+		****************************/
+		.thumb-passo3-mobile {
+			display: block;
+		}
+
+		.txt-confirmacao-participacao {
+			font-size: font_size(20);
+			line-height: 23px;
+			padding: 0;
+			background: none;
+		}
+
+		a.btn-face {
+			font-size: font_size(16);
+			margin: 9px 0;
+		}
+
+	} /* END MEDIA 240PX */
+
+	@media (min-width: 320px){
+
+		/****************************
+			HOME
+		****************************/					
+		/* home descrição */
+		.btn-enviar {
+			padding: 7px 51px;
+		}
+
+		/****************************
+			FOTOS
+		****************************/
+		.fotos-box {		
+
+			.owl-theme {
+				.owl-controls {					
+					.owl-nav {
+						.owl-prev, .owl-next {
+							top: 42%;					
+						}							
+					}			
+				}		
+			}	
+		}
+		
+		/****************************
+			PRÊMIO
+		****************************/
+		.premio-btn {
+			font-size: font_size(23);
+			margin: 0 auto;
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/
+
+		.fotos-passos {
+			overflow: hidden;
+
+			li i {
+				font-size: font_size(21);
+				width: 42px;
+				height: 42px;
+				padding-top: 6px;
+			}
+		}
+			
+	} /* END MEDIA 320PX */
+
+	@media (min-width: 360px){
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/	
+		.fotos-container {
+			padding: 0 10px;
+		}
+
+		/****************************
+			REGULAMENTO
+		****************************/
+		.regulamento-box {
+			h2 {
+				font-size: font_size(30);
+			}
+		}
+
+		.scroll-regulamento p {
+		    font-size: font_size(14);
+		}
+
+	} /* END MEDIA 360PX */
+
+	@media (min-width: 414px){
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/
+		.fotos-passos {
+			li i {
+				width: 60px;
+				height: 60px;
+				font-size: font_size(25);
+				padding-top: 13px;
+			}
+
+			li p {
+				font-size: font_size(22);
+
+				span {
+					top: -42px;
+				}
+			}			
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 3	
+		****************************/
+		.txt-confirmacao-participacao {
+			font-size: font_size(25);
+			line-height: 31px;
+		}
+
+		a.btn-face {
+			font-size: font_size(18);
+			margin: 9px 0;
+		}
+
+	} /* END MEDIA 414PX */	
+
+	@media (min-width: 480px){
+
+		.menu-container {
+			width: 70%;
+		}
+
+		/****************************
+			FOTOS ENVIADAS
+		****************************/		
+		ul.list-photos {
+			li {
+				width: 33.33%;
+			}
+		}
+
+		/****************************
+			PRÊMIO
+		****************************/
+		.premio-box {
+			h2 {
+				font-size: font_size(30);
+				line-height: 30px;
+			}
+
+			p {
+				font-size: font_size(20);
+			}
+		}
+
+		.premio-btn {
+			font-size: font_size(23);
+		}
+
+		.premio-lista {
+			li {
+				font-size: font_size(20);
+			}
+		}
+
+		/****************************
+			SINOPSE
+		****************************/
+		.sinopse-box {
+			h2 {
+				font-size: font_size(60);
+			}
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/
+		.fotos-passos {
+			li p {
+				font-size: font_size(25);
+			}			
+
+		}
+
+	} /* END MEDIA 480PX */
+
+	@media (min-width: 640px){
+		
+		/****************************
+			HOME
+		****************************/
+		.banner-txt-promo {
+			width: auto;
+		}
+
+		.slogan-promo {
+			text-align: left;
+			padding: 10px 0 10px 135px;
+			background: url("../images/polaroid-slogan.png") no-repeat 24px center;
+		}
+
+		/****************************
+			FOTOS
+		****************************/
+		.fotos-box {		
+			padding: 10px 15px;	
+		}
+
+		.videos-box {
+			padding: 0;
+		}
+
+		/****************************
+			REGULAMENTO
+		****************************/
+		.regulamento-box {
+			padding: 40px 40px 30px 40px;
+
+			h2 {
+				font-size: font_size(30);
+				margin: 0 0 10px;
+			}
+		}
+
+		/****************************
+			SINOPSE
+		****************************/
+		.sinopse-box {
+			p {
+				font-size: font_size(25);
+			}
+		}
+	}
+
+	@media (min-width: 715px){
+		/****************************
+			FOTOS ENVIADAS
+		****************************/		
+		ul.list-photos {
+
+			li {
+				width: 25%;
+			}
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/
+		.fotos-passos {
+			li {
+				p {
+					display: inline-block;
+
+					span {
+						right: -65px;
+						top: 3px;
+					}
+				}
+			}			
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 3	
+		****************************/
+		.thumb-passo3-mobile {
+			display: none;
+		}
+
+		.txt-confirmacao-participacao {
+			padding: 6.73% 0 9.21% 16.07%; /* 57px 0 78px 136px */
+			background: url('../images/thumb-fotos-passo-3-3.jpg') no-repeat center top;
+			background-size: 100% auto;
+		}
+	}
+
+	@media (min-width: 768px){
+		
+		/****************************
+			HOME
+		****************************/
+		.hide-balloon {
+			display: block;
+		}
+
+		.banner-txt-promo {
+			width: 200px;
+			position: absolute;
+			right: 0;
+		}
+
+		.slogan-promo {
+			font-size: font_size(32);
+			line-height: 39px;
+			padding: 0 0 0 135px;
+		}
+
+		.btn-enviar {
+			font-size: font_size(33);
+		}
+
+		.barra-placa {
+			background: url("../images/plate-bars.png") repeat-y center top;
+		}
+
+		h2.txt-promo {
+			font-size: font_size(26);
+			line-height: 38px;
+		}
+
+		/****************************
+			PRÊMIO
+		****************************/		
+		.premio-box {
+			padding: 40px 30px 30px;
+
+			p {
+				a {
+					font-size: font_size(17);
+				}
+			}
+		}
+
+		.premio-lista {
+			margin: 0;
+
+			li {
+				width: 49%;
+			}
+		}
+
+		.premios-thumb {
+			display: block;
+		}
+
+		/****************************
+			SINOPSE
+		****************************/	
+		.sinopse-box {
+
+			p {
+				padding-bottom: 50px;	
+			}	
+		}
+
+		/****************************
+			FOTOS
+		****************************/
+		.fotos-box {		
+			padding: 30px;
+
+			.owl-dots {
+				padding: 7px 0 10px 0;
+			}	
+
+			.owl-theme {
+				.owl-controls {
+					.owl-nav {
+						.owl-prev, .owl-next {
+							top: 50%;					
+						}							
+					}			
+				}		
+			}	
+		}
+
+		/****************************
+			VÍDEOS
+		****************************/	
+		.thumbs-box {
+			.videos-thumbs {
+				width: 525px;
+			}
+		}
+
+		/****************************
+			SELECIONAR FOTOS - 1	
+		****************************/	
+		.fotos-passos {
+			text-align: center;
+
+			li {
+				display: inline-block;
+				width: auto;
+				float: none;
+
+				i {
+					font-size: font_size(25);
+					width: 60px;
+					height: 60px;
+					padding-top: 10px;
+				}
+
+				p {
+					font-size: font_size(25);
+					margin: 0 15px;	
+
+					span {
+						position: relative;
+						right: 0;
+						margin: 0 15px;	
+					}	
+				}
+			}
+		}	
+
+		/****************************
+			SELECIONAR FOTOS - 3	
+		****************************/
+		
+		.txt-confirmacao-participacao {
+			font-size: font_size(27);
+		}											
+
+	} /* END MEDIA 768PX */
+
+	@media (min-width: 960px){
+
+		/* header menu desktop */
+		/*.menu-header {
+			display: block;
+		}*/
+
+		/* header menu mobile */
+		/*.menu-mobile {
+			display: none;
+		}*/
+
+		h2.txt-promo {
+			padding: 0 8%;
+		}
+
+		/****************************
+			PRÊMIO
+		****************************/		
+
+		.premios-thumb {
+			display: block;
+		}
+
+		.logo-universal-premio {
+			display: block;
+		}
+
+		/****************************
+			FOTOS ENVIADAS
+		****************************/		
+		ul.list-photos {
+
+			li {
+				width: 20%;
+			}
+		}
+
+		.sinopse-box {
+			padding: 44px 32px;
+		}
+
+		.ft-enviar-opcao-2 {
+			span.txt-file-select {
+				display: inline-block;
+			}
+		}
+
+
+	} /* END MEDIA 960PX */
+
+}
+
+@media screen and (max-width: 959px) {
+    .remove-pd {
+        padding: 0;
+        
+        .row {
+            margin: 0;
+        }
+
+        [class*='col-'] {
+            padding: 0;
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 1024px){
+	html, body {
+		height: 100%;
+	}
+
+	.wrapper {
+		min-height: 100%;
+		position: relative;
+	}
+
+	footer {
+		height: 65px;
+		position: absolute;
+		left: 0;
+		bottom: 0;
+	}
+
+	main {
+		padding-bottom: 65px;
+	}
+}
